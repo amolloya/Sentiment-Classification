@@ -6,6 +6,8 @@ We first create a lexicon (dictionary) of all the words in our positive and nega
 
 Then we create a neural network model and train and test the data using tensorflow. </br> The code is available in the file: Sentiment_classification.
 
+The accuracy achieved is about 60%. The accuracy for this model is less because we are using the classic Neural Network model. If we use Recurrent Neural Network (RNN) for this problem, we will achieve a better accuracy as RNN gives better results for sequential data and our input feature here i.e. sentence is a sequence of words.
+
 The data is available at:
 https://pythonprogramming.net/static/downloads/machine-learning-data/pos.txt - Positive sentiment
 https://pythonprogramming.net/static/downloads/machine-learning-data/neg.txt - Negative sentiment
